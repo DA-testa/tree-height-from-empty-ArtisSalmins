@@ -18,7 +18,7 @@ def compute_height(n, parents):
 def main():
     input_method = input()
     if "F" in input_method:
-        filepath = input()
+        filepath = "test/" + input()
         if 'a' in filepath:
             return
         with open(filepath, 'r', encoding='UTF-8') as file:
